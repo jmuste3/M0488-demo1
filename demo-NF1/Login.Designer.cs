@@ -42,7 +42,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(330, 68);
+            label1.Location = new Point(329, 100);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             textBox1.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.Red;
-            textBox1.Location = new Point(387, 61);
+            textBox1.Location = new Point(300, 33);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 41);
             textBox1.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             textBox2.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox2.ForeColor = Color.Red;
-            textBox2.Location = new Point(387, 118);
+            textBox2.Location = new Point(300, 118);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 41);
             textBox2.TabIndex = 2;
