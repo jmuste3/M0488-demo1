@@ -16,5 +16,17 @@ namespace demo_NF1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (this.USUARI.Text == "JAUME" && this.PASSWORD.Text == "PASSWORD")
+            {
+                MessageBox.Show("HOLA JAUME");
+                Form1 FORMULARI_1 = new Form1();
+                FORMULARI_1.Show();
+                this.Hide();
+            }
+            else MessageBox.Show("login incorrecte!");
+        }
     }
 }

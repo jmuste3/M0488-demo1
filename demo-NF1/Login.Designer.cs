@@ -30,11 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            USUARI = new TextBox();
+            PASSWORD = new TextBox();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
@@ -48,26 +49,26 @@
             label1.TabIndex = 0;
             label1.Text = "label1";
             // 
-            // textBox1
+            // USUARI
             // 
-            textBox1.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = Color.Red;
-            textBox1.Location = new Point(300, 33);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 41);
-            textBox1.TabIndex = 1;
-            textBox1.Text = "usuari";
+            USUARI.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            USUARI.ForeColor = Color.Red;
+            USUARI.Location = new Point(394, 74);
+            USUARI.Name = "USUARI";
+            USUARI.Size = new Size(100, 41);
+            USUARI.TabIndex = 1;
+            USUARI.Text = "usuari";
             // 
-            // textBox2
+            // PASSWORD
             // 
-            textBox2.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = Color.Red;
-            textBox2.Location = new Point(300, 118);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 41);
-            textBox2.TabIndex = 2;
-            textBox2.Text = "usuari";
-            textBox2.UseSystemPasswordChar = true;
+            PASSWORD.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PASSWORD.ForeColor = Color.Red;
+            PASSWORD.Location = new Point(394, 121);
+            PASSWORD.Name = "PASSWORD";
+            PASSWORD.Size = new Size(100, 41);
+            PASSWORD.TabIndex = 2;
+            PASSWORD.Text = "usuari";
+            PASSWORD.UseSystemPasswordChar = true;
             // 
             // pictureBox1
             // 
@@ -102,15 +103,26 @@
             tableLayoutPanel1.Size = new Size(139, 111);
             tableLayoutPanel1.TabIndex = 5;
             // 
+            // button1
+            // 
+            button1.Location = new Point(443, 178);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 6;
+            button1.Text = "LOGIN";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(591, 264);
+            Controls.Add(button1);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(PASSWORD);
+            Controls.Add(USUARI);
             Controls.Add(label1);
             Name = "Login";
             Text = "Login";
@@ -124,10 +136,11 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox USUARI;
+        private TextBox PASSWORD;
         private PictureBox pictureBox1;
         private Panel panel1;
         private TableLayoutPanel tableLayoutPanel1;
+        private Button button1;
     }
 }
