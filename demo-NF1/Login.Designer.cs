@@ -105,7 +105,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(443, 178);
+            button1.Location = new Point(407, 177);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 6;
