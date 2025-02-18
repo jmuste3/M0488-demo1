@@ -79,14 +79,14 @@
             flowLayoutPanel1.Controls.Add(button3);
             flowLayoutPanel1.Location = new Point(8, 6);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(98, 328);
+            flowLayoutPanel1.Size = new Size(96, 402);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // main_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(719, 414);
             Controls.Add(panel1);
             Controls.Add(flowLayoutPanel1);
             Name = "main_form";

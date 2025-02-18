@@ -62,7 +62,7 @@
             ClientSize = new Size(600, 400);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "subform2";
             Text = "subform2";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

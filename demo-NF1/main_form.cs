@@ -21,7 +21,7 @@ namespace demo_NF1
         {
             panel1.Controls.Clear();
             subform2 subForm = new subform2();
-            //subForm.TopLevel = false;
+            subForm.TopLevel = false;
 
             panel1.Controls.Add(subForm);
             subForm.Show();
@@ -31,7 +31,7 @@ namespace demo_NF1
         {
             panel1.Controls.Clear();
             subform1 subForm = new subform1();
-            //subForm.TopLevel = false;
+            subForm.TopLevel = false;
 
             panel1.Controls.Add(subForm);
             subForm.Show();
@@ -41,7 +41,7 @@ namespace demo_NF1
         {
             panel1.Controls.Clear();
             subform1 subForm = new subform1();
-            //subForm.TopLevel = false;
+            subForm.TopLevel = false;
             subForm.FormBorderStyle = FormBorderStyle.None;
 
             panel1.Controls.Add(subForm);
