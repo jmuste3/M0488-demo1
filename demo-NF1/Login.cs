@@ -19,10 +19,10 @@ namespace demo_NF1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.USUARI.Text == "JAUME" && this.PASSWORD.Text == "PASSWORD")
+            if (this.USUARI.Text == "ROOT" && this.PASSWORD.Text == "PASSWORD")
             {
                 MessageBox.Show("HOLA JAUME");
-                Form1 FORMULARI_1 = new Form1();
+                Form1 FORMULARI_1 = new Form1(this.USUARI.Text);
                 FORMULARI_1.Show();
                 this.Hide();
             }
