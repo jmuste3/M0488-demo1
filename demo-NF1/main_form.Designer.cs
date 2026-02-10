@@ -33,11 +33,14 @@
             button2 = new Button();
             button1 = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            button4 = new Button();
+            panel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(button4);
             panel1.Location = new Point(110, 8);
             panel1.Name = "panel1";
             panel1.Size = new Size(600, 400);
@@ -82,6 +85,16 @@
             flowLayoutPanel1.Size = new Size(96, 402);
             flowLayoutPanel1.TabIndex = 0;
             // 
+            // button4
+            // 
+            button4.Location = new Point(263, 189);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 2;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // main_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -92,6 +105,7 @@
             Name = "main_form";
             Text = "main_form";
             Load += main_form_Load;
+            panel1.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -102,5 +116,6 @@
         private Button button2;
         private Button button1;
         private FlowLayoutPanel flowLayoutPanel1;
+        private Button button4;
     }
 }

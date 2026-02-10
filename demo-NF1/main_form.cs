@@ -47,5 +47,10 @@ namespace demo_NF1
             panel1.Controls.Add(subForm);
             subForm.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
