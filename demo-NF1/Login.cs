@@ -25,6 +25,7 @@ namespace demo_NF1
                 Form1 FORMULARI_1 = new Form1(this.USUARI.Text);
                 FORMULARI_1.Show();
                 this.Hide();
+                //this.Dispose();
             }
             else MessageBox.Show("login incorrecte!");
         }

@@ -17,5 +17,16 @@ namespace demo_NF1
         {
             MessageBox.Show("Prem Ok per continuar", "Warning", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+            Application.Exit();
+        }
     }
 }
